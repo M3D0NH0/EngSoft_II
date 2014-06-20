@@ -2,17 +2,12 @@ package Silveira.binomial;
 
 public interface IBinomioEntidade {
 	
-	int calcular(int i, int j);
+	int calcular(int n, int k);
 
-	void setN(int i);
+	void setN(int n);
 
-	void setK(int i);
+	void setK(int k);
 
 	int getCoeficiente();
-
-
-	
-	
-	
 	
 }
